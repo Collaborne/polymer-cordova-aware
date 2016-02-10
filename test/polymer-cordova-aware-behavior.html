@@ -10,24 +10,10 @@
 		<script src="../../test-fixture/test-fixture-mocha.js"></script>
 		<script src="../../iron-test-helpers/mock-interactions.js"></script>
 		
-		<link rel="import" href="../polymer-cordova-aware-behavior.html">
+		<link rel="import" href="test-polymer-cordova-aware-behavior.html">
 		<link rel="import" href="../../test-fixture/test-fixture.html">
 	</head>
 	<body>
-		<dom-module id="test-polymer-cordova-aware-behavior">
-			<template>
-				<div>Running inside cordova? <span>[[isCordovaEnvironment]]</span></div>
-			</template>
-		</dom-module>
-		<script>
-			Polymer({
-				is: 'test-polymer-cordova-aware-behavior',
-				behaviors: [
-					Polymer.CordovaAwareBehavior
-				]
-			});
-		</script>
-	
 		<test-fixture id="TrivialElement">
 			<template>
 				<test-polymer-cordova-aware-behavior></test-polymer-cordova-aware-behavior>
