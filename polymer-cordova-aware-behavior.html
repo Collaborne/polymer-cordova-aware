@@ -1,0 +1,32 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<script>
+	window.Polymer = window.Polymer || {};
+    
+	/**
+	 * Behavior that provides information about the current Cordova environment.
+	 *
+	 * @polymerBehavior
+	 */	
+	Polymer.CordovaAwareBehavior = {
+		properties: {
+			/**
+			 * If `true` then the application is running inside a Cordova environment, otherwise `false`.
+			 */
+			isCordovaEnvironment: {
+				type: Boolean,
+				readOnly: true,
+				notify: true
+			}
+		},
+		
+		listeners: {
+			'deviceready': '_onDeviceReady'
+		},
+		
+		_onDeviceReady: function() {
+			this._setIsCordovaEnvironment(true);
+		},
+	};
+</script>
+    
