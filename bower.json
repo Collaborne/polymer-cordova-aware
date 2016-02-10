@@ -10,7 +10,7 @@
     "polymer",
     "cordova"
   ],
-  "main": "polymer-cordova-aware-behavior",
+  "main": "polymer-cordova-aware-behavior.html",
   "license": "Apache-2.0",
   "homepage": "https://github.com/Collaborne/polymer-cordova-aware/",
   "ignore": [
