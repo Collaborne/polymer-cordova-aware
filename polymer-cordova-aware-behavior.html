@@ -20,8 +20,8 @@
 			}
 		},
 		
-		listeners: {
-			'deviceready': '_onDeviceReady'
+		attached: function() {
+			document.addEventListener('deviceready', this._onDeviceReady.bind(this), false);
 		},
 		
 		_onDeviceReady: function() {

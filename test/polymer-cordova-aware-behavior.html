@@ -29,8 +29,15 @@
 						element = fixture('TrivialElement');
 					});
 					
-					test('detects cordova', function() {
+					test('has isCordovaEnvironment property', function() {
 						expect(element).to.have.property('isCordovaEnvironment');
+					});
+					test('reacts to deviceready event', function() {
+						var deviceReadyEvent = new CustomEvent('deviceready');
+						document.dispatchEvent(deviceReadyEvent);
+						setTimeout(function() {
+							expect(element.isCordovaEnvironment).to.be(true);
+						}, 100);
 					});
 				});
 			});
