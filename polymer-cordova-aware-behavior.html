@@ -12,11 +12,15 @@
 		properties: {
 			/**
 			 * If `true` then the application is running inside a Cordova environment, otherwise `false`.
+			 *
+			 * Note that the value is also `false` when we have not yet been able to determine whether this
+			 * is a Cordova environment.
 			 */
 			isCordovaEnvironment: {
 				type: Boolean,
 				readOnly: true,
-				notify: true
+				notify: true,
+				value: false
 			}
 		},
 		
