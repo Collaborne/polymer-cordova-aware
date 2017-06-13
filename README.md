@@ -1,10 +1,7 @@
-_[Demo and API Docs](http://collaborne.github.io/polymer-cordova-aware)_
-
-
-polymer-cordova-aware [![Bower version](https://badge.fury.io/bo/polymer-cordova-aware.svg)](http://badge.fury.io/bo/polymer-cordova-aware) [![Travis state](https://travis-ci.org/Collaborne/polymer-cordova-aware.svg?branch=master)](https://travis-ci.org/Collaborne/polymer-cordova-aware)
+polymer-cordova-aware [![Bower version](https://badge.fury.io/bo/polymer-cordova-aware.svg)](http://badge.fury.io/bo/polymer-cordova-aware) [![Travis state](https://travis-ci.org/Collaborne/polymer-cordova-aware.svg?branch=master)](https://travis-ci.org/Collaborne/polymer-cordova-aware) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Collaborne/polymer-cordova-aware)
 =========
 
-`polymer-cordova-aware` provides components for using [Apache Cordova](https://cordova.apache.org/) with [Polymer 1.x](https://www.polymer-project.org).
+`polymer-cordova-aware` provides components for using [Apache Cordova](https://cordova.apache.org/) with [Polymer](https://www.polymer-project.org).
 
 To use these elements
 
