@@ -3,6 +3,9 @@ polymer-cordova-aware [![Bower version](https://badge.fury.io/bo/polymer-cordova
 
 `polymer-cordova-aware` provides components for using [Apache Cordova](https://cordova.apache.org/) with [Polymer](https://www.polymer-project.org).
 
+This element uses Polymer 2 native mixin (ES6 syntax). If you require Polymer hybrid mode: use release 2.0.x of this element.
+
+
 To use these elements
 
 `bower install polymer-cordova-aware`

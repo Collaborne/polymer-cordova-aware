@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title>polymer-cordova-aware-behavior</title>
+		<title>polymer-cordova-aware-mixin</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
@@ -10,19 +10,19 @@
 		<script src="../../test-fixture/test-fixture-mocha.js"></script>
 		<script src="../../iron-test-helpers/mock-interactions.js"></script>
 		
-		<link rel="import" href="test-polymer-cordova-aware-behavior.html">
+		<link rel="import" href="test-polymer-cordova-aware-mixin.html">
 		<link rel="import" href="../../test-fixture/test-fixture.html">
 	</head>
 	<body>
 		<test-fixture id="TrivialElement">
 			<template>
-				<test-polymer-cordova-aware-behavior></test-polymer-cordova-aware-behavior>
+				<test-polymer-cordova-aware-mixin></test-polymer-cordova-aware-mixin>
 			</template>
 		</test-fixture>
 	
 		<script>
 			suite('Simple element', function() {
-				suite('with behavior', function() {
+				suite('with mixin', function() {
 					var element;
 	
 					setup(function() {

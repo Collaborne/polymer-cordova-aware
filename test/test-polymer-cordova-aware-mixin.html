@@ -1,0 +1,24 @@
+<!doctype html>
+
+<link rel="import" href="../../polymer/polymer.html">
+<link rel="import" href="../polymer-cordova-aware-mixin.html">
+
+<body>
+	<dom-module id="test-polymer-cordova-aware-mixin">
+		<template>
+			<div>Running inside cordova? <span>[[isCordovaEnvironment]]</span></div>
+		</template>
+	</dom-module>
+	<script>
+
+		class TestCordovaAwareMixin extends Polymer.CordovaAwareMixin(Polymer.Element) {
+
+			static get is() {
+				return 'test-polymer-cordova-aware-mixin';
+			}
+
+		}
+		customElements.define(TestCordovaAwareMixin.is, TestCordovaAwareMixin);
+
+	</script>
+</body>
