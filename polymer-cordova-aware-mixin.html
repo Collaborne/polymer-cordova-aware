@@ -30,6 +30,8 @@
 		}
 		
 		attached() {
+			super.attached();
+			
 			this.addEventListener('deviceready', this._onDeviceReady, false);
 		}
 		
