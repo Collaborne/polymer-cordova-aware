@@ -32,7 +32,9 @@
 		attached() {
 			super.attached();
 			
-			this.addEventListener('deviceready', this._onDeviceReady, false);
+			// Event lister must be registered to the document root to be called
+			// by Cordova
+			window.document.addEventListener('deviceready', this._onDeviceReady, false);
 		}
 		
 		_onDeviceReady() {
