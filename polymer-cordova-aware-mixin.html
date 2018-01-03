@@ -31,14 +31,14 @@
 		
 		attached() {
 			super.attached();
-			
+
 			// Event lister must be registered to the document root to be called
 			// by Cordova
-			window.document.addEventListener('deviceready', this._onDeviceReady, false);
+			window.document.addEventListener('deviceready', this._onDeviceReady.bind(this), false);
 		}
 		
 		_onDeviceReady() {
-			this.isCordovaEnvironment = true;
+			this._setIsCordovaEnvironment(true);
 		}
 
 	};
