@@ -1,4 +1,6 @@
-polymer-cordova-aware [![Bower version](https://badge.fury.io/bo/polymer-cordova-aware.svg)](http://badge.fury.io/bo/polymer-cordova-aware) [![Travis state](https://travis-ci.org/Collaborne/polymer-cordova-aware.svg?branch=master)](https://travis-ci.org/Collaborne/polymer-cordova-aware) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Collaborne/polymer-cordova-aware)
+polymer-cordova-aware [![Bower version](https://badge.fury.io/bo/polymer-cordova-aware.svg)](http://badge.fury.io/bo/polymer-cordova-aware) [![Travis state](https://travis-ci.org/Collaborne/polymer-cordova-aware.svg?branch=master)](https://travis-ci.org/Collaborne/polymer-cordova-aware) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Collaborne/polymer-cordova-aware)  
+[![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/Collabornepolymer-cordova-aware)
+[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/Collabornepolymer-cordova-aware.svg)](https://vaadin.com/directory/component/Collabornepolymer-cordova-aware)
 =========
 
 `polymer-cordova-aware` provides components for using [Apache Cordova](https://cordova.apache.org/) with [Polymer](https://www.polymer-project.org).
